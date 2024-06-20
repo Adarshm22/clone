@@ -86,7 +86,7 @@ global $follow_suggestions;
         <?php
         showError('post_img');
         if (count($posts) < 1) {
-            echo "<p class='p-2 bg-white border rounded text-center my-3 col-12'>Follow Someone or Add a new post</p>";
+            echo "<p class='p-2 bg-white border rounded text-center my-3 col-12'>Add a new post</p>";
         }
 
         foreach ($posts as $post) {
